@@ -64,7 +64,8 @@ struct DeckTests {
     ])
 
     #expect(deck.count == 2)
-    try #require(deck.deal() != nil)
+    let dealtCard = #require(deck.deal())
+    #expect(dealtCard.rank == .queen)
     #expect(deck.count == 1)
   }
 }
