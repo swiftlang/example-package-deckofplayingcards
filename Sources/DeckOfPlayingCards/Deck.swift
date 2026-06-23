@@ -13,7 +13,7 @@ import PlayingCard
 
 /// A model for shuffling and dealing a deck of playing cards.
 ///
-/// The playing card deck consists of 52 individual cards in four suites: spades, hearts, diamonds, and clubs.
+/// The playing card deck consists of 52 individual cards in four suits: spades, hearts, diamonds, and clubs.
 /// There are 13 ranks from two to ten, then jack, queen, king, and ace.
 public struct Deck: Equatable {
   fileprivate var cards: [PlayingCard]
